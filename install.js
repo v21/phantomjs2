@@ -352,7 +352,7 @@ function getDownloadUrl() {
 
   var cdnUrl = process.env.npm_config_phantomjs_cdnurl ||
       process.env.PHANTOMJS_CDNURL ||
-      'https://bitbucket.org/ariya/phantomjs/downloads'
+      'https://github.com/bprodoehl/phantomjs/releases/'
 
   downloadUrl = cdnUrl + '/phantomjs-' + helper.version + '-'
 
